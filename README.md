@@ -53,11 +53,11 @@ $ python manage.py createsuperuser
 ## SCREENSHOTS
 
 <img src="/screenshots/home.JPG">
-&nbsp;
+&nbsp; <br>
 <img src="/screenshots/login.JPG">
-&nbsp;
+&nbsp; <br>
 <img src="/screenshots/login_home.JPG">
-&nbsp;
+&nbsp; <br>
 <img src="/screenshots/draft.JPG">
 
 
