@@ -15,9 +15,19 @@
 - DJANGO
 - SQLITE
 
-WORK DONE TILL NOW :
+WORK TO BE DONE :
 - [x] CREATION OF THE PLATFORM
 - [x] PUSHING UP THE FUNTIONALITIES TO GITHUB
 - [ ] MINOR CHANGES IN FUNTIONALITIES
 - [ ] SOCIAL INTEGRATION TO FACEBOOK
 - [ ] SPCIAL INTEGRATION TO TWITTER
+
+> HOW TO EXECUTE MYBLOG TO YOUR SYSTEM
+```
+- open the terminal and goto the directory where you want to save the project
+- git clone https://github.com/abhikumar22/MYBLOG.git
+- go to the directory of the project in the terminal
+- python manage.py runserver
+- 
+
+
