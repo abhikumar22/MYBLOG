@@ -29,6 +29,7 @@ WORK TO BE DONE :
 - go to the directory of the project in the git shell
 - start the server python manage.py runserver
 - open any webbrowser and goto URL http://127.0.0.1:8000/
+```
 
 
 
