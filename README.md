@@ -50,7 +50,19 @@ $ python manage.py createsuperuser
 - Then by using the the details log into the platform
 
 
-## SCREENSHOTS OF THE PLATFORM
+## SCREENSHOTS
+
+<img src="/screenshots/home.jpg">
+&nbsp;
+<img src="/screenshots/login.jpg">
+&nbsp;
+<img src="/screenshots/login_home.jpg">
+&nbsp;
+<img src="/screenshots/draft.jpg">
+
+
+
+
 
 
 
