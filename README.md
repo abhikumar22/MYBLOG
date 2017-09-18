@@ -1,7 +1,7 @@
 # MYBLOG
-**MYBLOG** *is a blogging platform where user can share their views about something and moreover the platform is socially integrated with* *facebook and twitter for providing the flexibility to the user at the time of login*
+**MYBLOG** *is a blogging platform where user can share their views about something and moreover the platform is socially integrated with* *facebook, google and twitter for providing flexibility to the user at the time of login*
 
-## OVERVIEW OF THE PROJECT
+## OVERVIEW OF THIS PROJECT
 
 > Front End :-
 - HTML
@@ -15,21 +15,32 @@
 - DJANGO
 - SQLITE
 
-WORK TO BE DONE :
-- [x] CREATION OF THE PLATFORM
-- [x] PUSHING UP THE FUNTIONALITIES TO GITHUB
-- [ ] MINOR CHANGES IN FUNTIONALITIES
-- [ ] SOCIAL INTEGRATION TO FACEBOOK
-- [ ] SPCIAL INTEGRATION TO TWITTER
+### WORK TO BE DONE :
+- [x] Creation of the basic platform
+- [x] Pushing the commits to the GITHUB
+- [ ] Modification of minor funtionalities
+- [ ] Socially integrating to facebook
+- [ ] Socially integrating to google
+- [ ] Socially integrating to twitter
 
-> HOW TO EXECUTE MYBLOG TO YOUR SYSTEM
-- open the gitshell and goto the directory where you want to save the project
-- Clone the repository in the git shell
+> Requirements for executing this project in your local system <br>
+- Install git <code>https://git-scm.com/downloads</code> <br>
+- Install python <code>https://www.python.org/downloads/release/python-362/</code> <br>
+
+
+
+
+
+
+> How to execute MYBLOG to your Local System
+- Open the gitshell and goto the directory where you want to Clone the project
+- Clone the repository using the git shell <br>
 <code>$ git clone https://github.com/abhikumar22/MYBLOG.git</code> <br>
-- go to the directory of the project in the cmd
-- start the localhost server
+- Go to the directory of the project in the cmd
+- Start the localhost server <br>
 <code>$ python manage.py runserver</code> <br>
-- open any web browser and goto URL http://127.0.0.1:8000/
+- Open any web browser and goto URL <br>
+ <code>http://127.0.0.1:8000/</code>
 
 
 
