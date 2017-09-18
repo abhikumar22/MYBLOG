@@ -24,9 +24,11 @@ WORK TO BE DONE :
 
 > HOW TO EXECUTE MYBLOG TO YOUR SYSTEM
 - open the gitshell and goto the directory where you want to save the project
-- <code>$ git clone https://github.com/abhikumar22/MYBLOG.git</code> <br>
+- Clone the repository in the git shell
+<code>$ git clone https://github.com/abhikumar22/MYBLOG.git</code> <br>
 - go to the directory of the project in the cmd
-- start the server by <code>$ python manage.py runserver</code> <br>
+- start the localhost server
+<code>$ python manage.py runserver</code> <br>
 - open any web browser and goto URL http://127.0.0.1:8000/
 
 
