@@ -61,7 +61,7 @@ $ python manage.py createsuperuser
 <img src="/screenshots/login.JPG">
 &nbsp; <br>
 
-### H0mePage_after_Login <br>
+### New_Post_page <br>
 <img src="/screenshots/login_home.JPG">
 &nbsp; <br>
 
