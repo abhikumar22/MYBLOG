@@ -56,13 +56,13 @@ $ python manage.py createsuperuser
 #### Initial_Very_First_Webpage
 <img src="/screenshots/home.JPG">
 &nbsp; <br>
-#### Login_Page
+#### Login_Page <br>
 <img src="/screenshots/login.JPG">
 &nbsp; <br>
-#### H0mePage_after_Login
+#### H0mePage_after_Login <br>
 <img src="/screenshots/login_home.JPG">
 &nbsp; <br>
-#### Draft
+#### Draft <br>
 <img src="/screenshots/draft.JPG">
 
 
