@@ -53,19 +53,19 @@ $ python manage.py createsuperuser
 ## SCREENSHOTS
 *Here are some of the pics, how myblog platform looks like........*
 
-#### Initial_Very_First_Webpage
+### Initial_Very_First_Webpage
 <img src="/screenshots/home.JPG">
 &nbsp; <br>
 
-#### Login_Page <br>
+### Login_Page <br>
 <img src="/screenshots/login.JPG">
 &nbsp; <br>
 
-#### H0mePage_after_Login <br>
+### H0mePage_after_Login <br>
 <img src="/screenshots/login_home.JPG">
 &nbsp; <br>
 
-#### Draft <br>
+### Draft <br>
 <img src="/screenshots/draft.JPG">
 
 
