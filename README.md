@@ -31,7 +31,7 @@
 - Install django, goto the dekstop in cmd and execute this command <br>
 <code>$ easy_install django</code> <br>
 - Install Bootstrap goto the dekstop in cmd and execute this command <br>
-<code>$ pip install bootstrap3</code> <br>
+<code>$ pip install django-bootstrap3</code> <br>
 
 ### How to execute MYBLOG to your Local System
 - Open the gitshell and goto the directory where you want to Clone the project
@@ -42,35 +42,12 @@
 <code>$ python manage.py runserver</code> <br>
 - Open any web browser and goto URL <br>
  <code>http://127.0.0.1:8000/</code>
- 
+
  #### Creating a new user account in MYBLOG platform
 - <code>open terminal, goto the project directory</code> <br>
 $ python manage.py createsuperuser
-- provide the email, username and password 
+- provide the email, username and password
 - Then by using the the details log into the platform
 
 
-## SCREENSHOTS
-*Here are some of the pics, how myblog platform looks like........*
-
-### Initial_Very_First_Webpage
-<img src="/screenshots/home.JPG">
-&nbsp; <br>
-
-### Login_Page <br>
-<img src="/screenshots/login.JPG">
-&nbsp; <br>
-
-### New_Post_page <br>
-<img src="/screenshots/login_home.JPG">
-&nbsp; <br>
-
-### Draft <br>
-<img src="/screenshots/draft.JPG">
-
-
-
-
-
-
-
+## SCREENSHOTS OF THE PLATFORM
