@@ -36,33 +36,28 @@ Clone the repository using the git shell
 <code>pip install -r requirements.txt</code> <br>
 
 ### How to execute MYBLOG to your Local System
-- Go to the Base directory of the project in the terminal
+- Go to the Base directory of the project in the terminal <br>
 - Start the localhost server <br>
 <code>$ python manage.py runserver</code> <br>
-- Open any web browser and goto URL <br>
+- Open any web browser and goto the URL <br>
  <code>http://localhost:8000</code>
-
- #### Creating a new user account in MYBLOG platform
-- <code>Open terminal, goto the project directory</code> <br>
-$ python manage.py createsuperuser
-- provide the email, username and password or you can directly logged in by using your social netwoking id
 
 ## SCREENSHOTS OF THE PLATFORM
 Home Without Authentication
-<img src="/screenshots/home_without_authenticated.jpg">
+<img src="/screenshots/home_without_authenticated.JPG">
 &nbsp;
 Home Authenticated
-<img src="/screenshots/home_authenticated.jpg">
+<img src="/screenshots/home_authenticated.JPG">
 &nbsp;
 Login Page
-<img src="/screenshots/login_page.jpg">
+<img src="/screenshots/login_page.JPG">
 &nbsp;
 Registratrion Page
-<img src="/screenshots/registration_page.jpg">
+<img src="/screenshots/registration_page.JPG">
 &nbsp;
 New Post
-<img src="/screenshots/new_post.jpg">
+<img src="/screenshots/new_post.JPG">
 &nbsp;
 Draft
-<img src="/screenshots/draft.jpg">
+<img src="/screenshots/draft.JPG">
 &nbsp;
