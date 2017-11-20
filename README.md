@@ -45,7 +45,8 @@
  <code>http://localhost:8000</code>
 
 ## SCREENSHOTS OF THE PLATFORM
-**Home Without Authentication
+
+**Home Without Authentication** <br>
 <img src="/screenshots/home_without_authenticated.JPG">
 &nbsp;
 **Home Authenticated** <br>
