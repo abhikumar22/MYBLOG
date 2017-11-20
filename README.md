@@ -26,14 +26,15 @@
 ### Requirements for executing this project in your local system <br>
 - Install git <br>
 <code>https://git-scm.com/downloads</code> <br>
-Clone the repository using the git shell <br>
+-Clone the repository using the git shell <br>
 <code>$ git clone https://github.com/abhikumar22/MYBLOG.git</code> <br>
-- Go to the Base directory of the project <br>
+- Go to the Base directory of the project in the terminal <br>
+<code>$cd *path*</code> <br>
 - Create your virtual environment and activate it <br>
 <code>$ virtualenv blogenv</code> <br>
 <code>$ blogenv\Scripts\activate</code> <br>
 - Now, Install the requirements <br>
-<code>pip install -r requirements.txt</code> <br>
+<code>$ pip install -r requirements.txt</code> <br>
 
 ### How to execute MYBLOG to your Local System
 - Go to the Base directory of the project in the terminal <br>
