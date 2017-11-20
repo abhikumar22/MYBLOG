@@ -45,21 +45,21 @@
  <code>http://localhost:8000</code>
 
 ## SCREENSHOTS OF THE PLATFORM
-Home Without Authentication
+####Home Without Authentication
 <img src="/screenshots/home_without_authenticated.JPG">
 &nbsp;
-Home Authenticated
+####Home Authenticated
 <img src="/screenshots/home_authenticated.JPG">
 &nbsp;
-Login Page
+####Login Page
 <img src="/screenshots/login_page.JPG">
 &nbsp;
-Registratrion Page
+####Registratrion Page
 <img src="/screenshots/registration_page.JPG">
 &nbsp;
-New Post
+####New Post
 <img src="/screenshots/new_post.JPG">
 &nbsp;
-Draft
+####Draft
 <img src="/screenshots/draft.JPG">
 &nbsp;
