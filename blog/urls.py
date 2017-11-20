@@ -1,8 +1,8 @@
 from django.conf.urls import url
 from . import views
 
-
 urlpatterns = [
+    url(r'^registration_form/$', views.UserFormView.as_view(), name='registration_form'),
     url(r'^$',views.PostListView.as_view(),name='post_list'),
     url(r'^about/$',views.AboutView.as_view(),name='about'),
     url(r'^post/(?P<pk>\d+)$', views.PostDetailView.as_view(), name='post_detail'),

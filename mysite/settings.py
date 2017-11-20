@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap3',
     'blog',
+    'social_django'
 ]
 
 MIDDLEWARE = [
@@ -50,6 +51,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'social_django.middleware.SocialAuthExceptionMiddleware',
 ]
 
 ROOT_URLCONF = 'mysite.urls'
@@ -65,6 +68,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+                'social_django.context_processors.backends',  # <--
+                'social_django.context_processors.login_redirect', # <--
             ],
         },
     },
@@ -126,3 +132,36 @@ LOGIN_REDIRECT_URL = '/'
 
 
 DEBUG = True
+
+
+
+
+
+AUTHENTICATION_BACKENDS = (
+    'social_core.backends.github.GithubOAuth2',
+    'social_core.backends.twitter.TwitterOAuth',
+    'social_core.backends.facebook.FacebookOAuth2',
+    'social_core.backends.google.GoogleOAuth2',
+
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+
+
+LOGIN_URL = 'login'
+LOGOUT_URL = 'logout'
+LOGIN_REDIRECT_URL = '/'
+
+
+
+SOCIAL_AUTH_GITHUB_KEY = 'ac478e2aa3b910f86f5b'
+SOCIAL_AUTH_GITHUB_SECRET = 'afdd094906556e781e0b77c199091d855c1754cc'
+
+SOCIAL_AUTH_TWITTER_KEY = '8J5G48go7ywlf2XSnGLCrlNes'
+SOCIAL_AUTH_TWITTER_SECRET = 'OFaqTMkA1YSMncsxZ8l6Qqe6a87LSY0CY26OdNmSgbx8JyLqEf'
+
+SOCIAL_AUTH_FACEBOOK_KEY = '356013741506495'
+SOCIAL_AUTH_FACEBOOK_SECRET = '9416dd371d79dc1f3fec45e2059e5707'
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '235870342025-qeqvivmn1h9vgm63accop13itop6i7i8.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET  = 'okcUQD85xQ7z-rhE7XzgDrN5'

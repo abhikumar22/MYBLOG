@@ -3,11 +3,10 @@
 
 {% block content %}
   <div class="jumbotron">
-
-    <h2>Please Login: </h2>
-    <h3>(Must be SuperUser, please check admin for issues.)</h3>
+    <h2><b>Welcome to MYBLOG</b></h2>
+    <h3>Please Login to continue: </h3>
     {% if form.errors %}
-        <p>Your username and password didn't match.Please try again!</p>
+        <p>ERROR!!!!!Your username and password didn't match.Please try again!</p>
     {% endif %}
 
     <form method="POST" action="{% url 'login' %}">
@@ -17,5 +16,25 @@
         <input type="submit" class='btn btn-primary' value="Login" />
         <input type="hidden" name="next" value="{{ next }}" />
     </form>
-  </div>
+
+<br>
+ <p><strong>-- OR --</strong></p>
+
+ <a class="btn btn-social-icon btn-twitter" href="{% url 'social:begin' 'twitter' %}">Login with Twitter</a>
+    <span class="fa fa-twitter"></span>
+  </a>
+<!--<div id="google-plus-button">Google+ Sign In</div>-->
+  <a class="btn btn-social-icon btn-github" href="{% url 'social:begin' 'github' %}">Login with Github</a>
+     <span class="fa fa-twitter"></span>
+   </a>
+
+   <a class="btn btn-social-icon btn-facebook" href="{% url 'social:begin' 'facebook' %}">Login with Facebook</a>
+      <span class="fa fa-Facebook"></span>
+    </a>
+
+    <a class="btn btn-social-icon btn-google" href="{% url 'social:begin' 'google-oauth2' %}">Login with Google</a>
+       <span class="fa fa-twitter"></span>
+     </a>
+
+ </div>
 {% endblock %}

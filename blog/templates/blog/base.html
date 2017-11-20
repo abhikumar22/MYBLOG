@@ -2,7 +2,7 @@
 {% load staticfiles %}
 <html>
     <head>
-        <title>Blog Project</title>
+        <title>MyBlog</title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -24,7 +24,7 @@
 
 
 
-<body class='loader'>
+<!--<body class='loader'>-->
 
 
   <nav class="navbar navbar-inverse techfont custom-navbar">
@@ -54,7 +54,8 @@
           <a >Welcome: {{ user.username }}</a>
         </li>
           {% else %}
-          <li><a class='nav navbar-right' href="{% url 'login' %}" ><span class="glyphicon glyphicon-user"></span></a></li>
+          <li><a class='nav navbar-right' href="{% url 'login' %}" >Login</span></a></li>
+          <li><a class='nav navbar-right' href="{% url 'registration_form' %}" >Register</span></a></li>
         {% endif %}
 
       </ul>
@@ -79,5 +80,5 @@
 
 <script type="text/javascript" src="{% static 'js/blog.js' %}"></script>
 
-</body>
+<!--</body>-->
 </html>
