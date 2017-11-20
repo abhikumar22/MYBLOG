@@ -38,6 +38,7 @@
 
 ### How to execute MYBLOG to your Local System
 - Go to the Base directory of the project in the terminal <br>
+<code>$cd *path*</code> <br>
 - Start the localhost server <br>
 <code>$ python manage.py runserver</code> <br>
 - Open any web browser and goto the URL <br>
