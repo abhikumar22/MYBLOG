@@ -48,18 +48,18 @@
 **Home Without Authentication
 <img src="/screenshots/home_without_authenticated.JPG">
 &nbsp;
-**Home Authenticated
+**Home Authenticated** <br>
 <img src="/screenshots/home_authenticated.JPG">
 &nbsp;
-**Login Page
+**Login Page** <br>
 <img src="/screenshots/login_page.JPG">
 &nbsp;
-**Registratrion Page
+**Registratrion Page** <br>
 <img src="/screenshots/registration_page.JPG">
 &nbsp;
-**New Post
+**New Post** <br>
 <img src="/screenshots/new_post.JPG">
 &nbsp;
-**Draft
+**Draft** <br>
 <img src="/screenshots/draft.JPG">
 &nbsp;
