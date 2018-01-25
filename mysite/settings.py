@@ -137,7 +137,7 @@ LOGIN_REDIRECT_URL = '/'
 DEBUG = True
 
 
-
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
 AUTHENTICATION_BACKENDS = (
