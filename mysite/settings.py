@@ -93,7 +93,7 @@ DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
 
 
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static'),
+    os.path.join(BASE_DIR, 'static'),
 )
 
 # Password validation
