@@ -6,7 +6,7 @@ django-bootstrap3==9.1.0
 django-six==1.0.4
 idna==2.6
 oauthlib==2.0.6
-PyJWT==1.5.3
+PyJWT==2.4.0
 python-social-auth==0.3.6
 python3-openid==3.1.0
 pytz==2017.3
